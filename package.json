@@ -6,7 +6,10 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore -f json"
   },
   "dependencies": {
+    "@tweenjs/tween.js": "^20.0.3",
+    "ant-design-vue": "^3.2.19",
     "core-js": "^3.6.5",
+    "three": "^0.151.3",
     "vue": "^3.0.0"
   },
   "devDependencies": {

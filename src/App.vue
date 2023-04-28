@@ -1,15 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <DigitalHuman></DigitalHuman>
+  <WebkitSpeech></WebkitSpeech>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import DigitalHuman from './components/DigitalHuman.vue';
+import WebkitSpeech from './components/WebkitSpeech.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    DigitalHuman,
+    WebkitSpeech
   }
 }
 </script>
